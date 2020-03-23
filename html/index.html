@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&display=swap" rel="stylesheet">
+    <script rel="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div id="header">
+        <div class="logo">
+            AppSon
+        </div>
+        <nav>
+            <a  href="#">Home</a>
+            <a  href="#">Features</a>
+            <a  href="#">Prong</a>
+            <a  href="#">Pages</a>
+        </nav>
+        <a class="SignUp">
+            Sign Up
+        </a>
+    </div>
+</div>
+
+<div class="container">
+    <div id="main">
+        <div class="center">
+            <div class="centerText">
+                <h3>
+                    Log In
+                </h3>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet.
+                </div>
+            </div>
+            <div class="buttons">
+                <a href="#" style="background-color: #3b5999; margin-right: 15px">Facebook</a>
+                <a href="#" style="background-color: #55acee; margin-left: 15px">Twitter</a>
+            </div>
+            <div style="color: #333333; font-weight: 400; margin-top: 40px">
+                OR
+            </div>
+            <div>
+                <form>
+                    <input placeholder="Email Address" style="margin-bottom: 15px">
+                    <input placeholder="Password" style="margin-top: 15px">
+                </form>
+            </div>
+            <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between; margin-top: 20px">
+                <div style="margin-left: 200px; color: #0f7bff; font-weight: 400; cursor: pointer; font-size: 12px">
+                    <a >Forgot Password?</a>
+                </div>
+                <div style="margin-right: 200px; color: #0f7bff; font-weight: 400; cursor: pointer; font-size: 12px">
+                    <a>Create a free account?</a>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div id="AboutUs">
+        <div class="AboutUsTitle">
+            <h3>
+                Appson
+            </h3>
+            <div class="AboutUsText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. tempor incididunt ut labore
+            </div>
+            <div class="AboutUsIcons">
+                <div class="facebook">
+                    <a></a>
+                </div>
+                <div class="twitter">
+                    <a></a>
+                </div>
+                <div class="yt">
+                    <a></a>
+                </div>
+            </div>
+        </div>
+        <div class="sq1">
+            <div class="list1">
+                <h3>
+                    Company
+                </h3>
+                <div>
+                    About Us
+                </div>
+                <div>
+                    Press
+                </div>
+                <div>
+                    Reviews
+                </div>
+                <div>
+                    Partners
+                </div>
+            </div>
+            <div class="list1">
+                <h3>
+                    Blog
+                </h3>
+                <div>
+                    Finance
+                </div>
+                <div>
+                    Technology
+                </div>
+                <div>
+                    Mobile
+                </div>
+            </div>
+            <div class="list1">
+                <h3>
+                    Integrations
+                </h3>
+                <div>
+                    Android App
+                </div>
+                <div>
+                    IOS App
+                </div>
+                <div>
+                    Windows App
+                </div>
+                <div>
+                    VR Box App
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div id="footer">
+        <hr \>
+        <div class="footerElements">
+            <div class="e">
+                <div class="m">
+                    © 2018 Copyright, All Rights Reserved by AppSon
+                </div>
+                <div class="n">
+                    <div class="start">Terms & Condition</div>
+                    <div class="start1">Privacy Policy</div>
+                    <div class="start2">Help</div>
+                </div>
+
+            </div>
+            <div class="scrollToTop">
+                <a href="javascript://0" onclick="slowScrollHeader('.header')">
+                    <img src="../images/Footer/05_Right-Sidebar-Blog_14.png">
+                </a>
+                <script>
+                    function slowScrollHeader(id) {
+                        let top = 0;
+                        $('html , body').animate({
+                            scrollTop: $("#header").offset ().top - top
+                        }, 2000);
+                        return false;
+                    }
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
